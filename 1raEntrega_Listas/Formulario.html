@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <main>
+        <h1>Formulario de registro</h1>
+        <form action="www.google.com" method="get">
+
+            <p><label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_name">
+            </p>
+
+            <p><label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="user_apellido">
+            </p>
+
+            <p>Modalidad de cursada:
+                <input type="radio" id="opcion_1" name="cursada" value="onDemand">
+                <label for="opcion_1">On-Demand</label>
+                <input type="radio" id="opcion_2" name="cursada" value="enVivo">
+                <label for="opcion_2">En vivo</label>
+            </p>
+
+            <p>
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_mail">
+            </p>
+            <p>
+                <input type="checkbox" name="opc_1" id="">
+                <label for="">Deseo recibir información sobre nuevos posteos en la plataforma Nucba</label>
+            </p>
+            <p>
+                <input type="checkbox" name="opc_2" id="">
+                <label for="">Declaro que leí los terminos y condiciones y estoy listo para convertirme en Desarrollador Web Full Stack</label>
+            </p>
+            <p><button type="submit">Enviar</button></p>
+
+        </form>
+    </main>
+
+</body>
+
+</html>
